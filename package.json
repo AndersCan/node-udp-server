@@ -1,0 +1,33 @@
+{
+  "name": "node-udp-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "server-1": "node part-1/server.js",
+    "client-1": "node part-1/client.js",
+    "server-2": "node part-2/server.js",
+    "client-2": "node part-2/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersCan/node-udp-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "prettier": {
+    "printWidth": 80
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersCan/node-udp-server/issues"
+  },
+  "homepage": "https://github.com/AndersCan/node-udp-server#readme",
+  "volta": {
+    "node": "14.17.3",
+    "npm": "7.23.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
